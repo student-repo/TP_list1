@@ -17,7 +17,6 @@ public class Deck {
     public Deck(int jokersAmount) {
         cards = generateCards(jokersAmount);
     }
-
     public Card getFirstCard(){
         return cards.get(0);
     }

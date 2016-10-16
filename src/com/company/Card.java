@@ -40,4 +40,5 @@ public class Card {
                 ", Suit=" + SUITS.get(suitNumber) +
                 '}';
     }
+
 }
