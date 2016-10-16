@@ -17,7 +17,7 @@ public class Deck {
     public Deck(int jokersAmount) {
         cards = generateCards(jokersAmount);
     }
-    public Card getFirstCard(){
+    public Card getFirstCard() throws ArrayIndexOutOfBoundsException{
         return cards.get(0);
     }
 
