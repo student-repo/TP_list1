@@ -7,7 +7,7 @@ import java.lang.reflect.Method;
 import java.util.List;
 
 public class DeckTest extends TestCase {
-    Deck deck = null;
+    transient Deck deck = null;
     public void setUp(){
         deck = new Deck(1);
     }
